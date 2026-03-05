@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Электронный маркетинг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">E-Marketing Pro</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="stats.html">Статистика</a></li>
+                    <li><a href="image.html">Имидж</a></li>
+                    <li><a href="ads.html">Реклама</a></li>
+                    <li><a href="brand.html">Бренд</a></li>
+                    <li><a href="blogging.html">Блоггинг</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container content-page">
+        <h1>Контакты и автор</h1>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Информация об авторе</h2>
+                <ul class="contact-details">
+                    <li><strong>E-mail:</strong> test@test.com</li>
+                    <li><strong>Учебная группа:</strong> ДКМ-231</li>
+                    <li><strong>Автор:</strong> Синяк Александр Сергеевич</li>
+                    <li><strong>Дата обновления сайта:</strong> <span id="updateDate"></span></li>
+                </ul>
+                <p>Данный сайт разработан в рамках практической работы по дисциплине «Электронный бизнес».</p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Связаться с автором</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш E-mail:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Электронный бизнес. Студент ДКМ-231 Синяк Александр Сергеевич</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
